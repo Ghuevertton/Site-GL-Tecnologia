@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GL Tecnologia</title>
+    <!--<link rel="stylesheet" href="./lib/bootstrap.min.css">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho"><!--fixed-top-->
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3">GL Tecnologia</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-info-circle me-1"></i>
+                                Sobre Nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossos-servicos" class="nav-link">
+                            <i class="bi bi-gear me-1"></i>
+                                Nossos Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossos-produtos" class="nav-link">
+                            <i class="bi bi-laptop me-1"></i>
+                                Nossos Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-envelope me-1"></i>
+                                Contato 
+                        </a>
+                    </li>
+                </ul>
+            </nav><!--menu-navegacao-->
+        </div><!--container-->
+    </header><!--cabecalho--> 
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="images/slides/placamae.png" alt="pc">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="images/slides/memoria.png" alt="notebook">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="images/slides/pc.png" alt="teclado">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div><!--carousel-->
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/logo.jpeg" class="d-block w-100 rounded" alt="logo">
+                        </div><!--col-md-5-->
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">nós</span></h2>
+                            <p>
+                                A GL Tecnologia está no mercado desde 2007, nós cuidamos com dedicação e expertise dos seus equipamentos, para manutenção, prevenção e upgrades de computadores e notebooks de nossos clientes, porque a confiança é o alicerce do nosso serviço.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o nosso espaço</span></h3>
+                            <p>
+                                Nossa loja oferece uma vasta gama de produtos e serviços para atender às demandas mais exigentes dos nossos clientes, além disso o ambiente acolhedor e inspirador da loja garante uma experiência de compra única,venha nos visitar e descubra por que somos o destino preferido dos aficionados por tecnologia em busca de excelência e inovação.
+                            </p>
+                            <div class="parceiros-links text-left">
+                                <h2 class="section-title">Nossos <span class="text-colored">Parceiros</span></h2>
+                                <ul class="text-left l-3">
+                                    <li><a href="https://amzn.to/44GB6vs" class="d-inline" target="_blank">Amazon</a></li>
+                                    <li><a href="https://www.magazinevoce.com.br/magazineinformaticagl/" class="d-inline" target="_blank">Magalu</a></li>
+                                    <li><a href="https://best.aliexpress.com/?af=1060829&cn=18490&dp=18879_1679021932_c46fa1d3f8cbcdd8a3e983676d7652e5&awc=18879_1679021932_c46fa1d3f8cbcdd8a3e983676d7652e5&aff_fcid=c5f341d26a68439ab4b021fab27f1d51-1679021933911-01190-vbI2rJI6U&gatewayAdapt=glo2bra&cv=0&aff_fsk=vbI2rJI6U&lan=en&commercial_type=bestPage&hc_1214_tag=ByAffPage&aff_fcid=58f3697cf1d04533bf70adce16713bc0-1715396678952-09149-_pz9sEiR&aff_fsk=_pz9sEiR&aff_platform=portals-promotion&sk=_pz9sEiR&aff_trace_key=58f3697cf1d04533bf70adce16713bc0-1715396678952-09149-_pz9sEiR&terminal_id=944530e2d02642ec914972da3efb818f" class="d-inline" target="_blank">Aliexpress</a></li>
+                                    <li><a href="https://www.iplace.com.br/?utm_source=awin&utm_medium=afiliados&utm_content=iPlace%20BR&utm_campaign=1060829&awc=31355_1681483405_23ef0d278e9fc425fad93301ff965cd5" class="d-inline" target="_blank">iPlace</a></li>
+                                </ul>
+                            </div>
+                            
+                        </div><!--col-md-7-->
+                    </div><!--row-->
+                </div><!--container-->
+                <!-- Seção de Depoimentos 
+                <div class="container mt-5">
+                    <h2 class="section-title">Depoimentos de Clientes</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cliente 1</h5>
+                                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, dolore!"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cliente 2</h5>
+                                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, optio!"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cliente 3</h5>
+                                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, minus!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>Seção de Depoimentos-->
+            </div><!--pt-5 pb-5-->
+        </section><!--sobre-nos-->
+        <section id="nossos-servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">Serviços</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/servicos/upgrade.png" alt="Serviço 1" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-rocket-takeoff"></i>
+                            Upgrades
+                        </h3>
+                        <p>
+                            Upgrades de Computadores: Com o avanço da tecnologia, upgrades são frequentes. Incluem adição de memória RAM, troca de discos rígidos e atualização de placas gráficas. Mantêm os computadores relevantes para qualquer atividadecomo tarefas simples e ate jogos.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/servicos/manutencao.png" alt="Serviço 2" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-tools"></i>
+                            Manutenções
+                        </h3>
+                        <p>
+                            Manutenção de Computadores: A manutenção de computadores é crucial. Envolve limpeza regular, atualização de softwares e substituição de peças defeituosas. Sem ela, ocorrem falhas inesperadas, prejudicando a produtividade dos equpamentos
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/servicos/instalacao.png" alt="Serviço 3" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-windows"></i>
+                            Instalações
+                        </h3>
+                        <p>
+                            Instalação de Sistemas Operacionais: Instalar sistemas operacionais é vital. Envolve preparar o hardware, selecionar o sistema operacional adequado e configurar o sistema. Uma instalação bem-sucedida garante eficiência e a segurança de extrair o melhor do seu hardware.
+                        </p>
+                    </div>
+                </div><!--row mt-4-->
+            </div><!--container-->   
+        </section><!--nossos-servicos-->
+        <section id="nossos-produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">Produtos</span>
+                    </h2>
+                </div><!--row-->
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#computadores" class="fw-bold text-start nav-link text-colored active">Computadores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#laptops" class="fw-bold text-start nav-link text-colored">Laptops</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#celulares" class="fw-bold text-start nav-link text-colored">Celulares</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold text-start nav-link text-colored">Acessórios</button>
+                        </nav><!--nav-cardapio-->
+                    </aside><!--col-md-2-->
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane" id="computadores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pcgamer/pcgamer1.png" alt="pcgamer1" />
+                                        <h5 class="text-colored fw-bold mt-2">Pc Gamer 1</h5>
+                                        <p>
+                                            Descrição sobre o Pc Gamer Modelo 1.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pcgamer/pcgamer2.png" alt="pcgamer2" />
+                                        <h5 class="text-colored fw-bold mt-2">Pc Gamer 2</h5>
+                                        <p>
+                                            Descrição sobre o Pc Gamer Modelo 2.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pcgamer/pcgamer3.png" alt="pcgamer3" />
+                                        <h5 class="text-colored fw-bold mt-2">Pc Gamer 3</h5>
+                                        <p>
+                                            Descrição sobre o Pc Gamer Modelo 2.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/pcgamer/pcgamer4.png" alt="pcgamer4" />
+                                        <h5 class="text-colored fw-bold mt-2">Pc Gamer 4</h5>
+                                        <p>
+                                            Descrição sobre o Pc Gamer Modelo 2.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!--computadores-->
+                            <div class="tab-pane active" id="laptops">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/laptops/notedell.png" alt="notedell" />
+                                        <h5 class="text-colored fw-bold mt-2">Notebook Dell</h5>
+                                        <p>
+                                            Descrição sobre o Notebook Modelo Dell.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/laptops/notelenovo.png" alt="notelenovo" />
+                                        <h5 class="text-colored fw-bold mt-2">Notebook Lenovo</h5>
+                                        <p>
+                                            Descrição sobre o Notebook Modelo Lenovo.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/laptops/notesamsung.png" alt="notesamsung" />
+                                        <h5 class="text-colored fw-bold mt-2">Notebook Samsung</h5>
+                                        <p>
+                                            Descrição sobre o Notebook Modelo Samsung.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/laptops/noteultra.png" alt="noteultra" />
+                                        <h5 class="text-colored fw-bold mt-2">Notebook Ultra</h5>
+                                        <p>
+                                            Descrição sobre o Notebook Modelo Ultra.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!--laptops-->
+                            <div class="tab-pane" id="celulares">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/celulares/iphone.png" alt="iphone" />
+                                        <h5 class="text-colored fw-bold mt-2">Smartphone iPhone</h5>
+                                        <p>
+                                            Descrição sobre o smartphone Modelo iPhone.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/celulares/samsung.png" alt="samsung" />
+                                        <h5 class="text-colored fw-bold mt-2">Smartphone Samsung</h5>
+                                        <p>
+                                            Descrição sobre o smartphone Modelo Samsung.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/celulares/xiaomi.png" alt="xiaomi" />
+                                        <h5 class="text-colored fw-bold mt-2">Smartphone Xiaomi</h5>
+                                        <p>
+                                            Descrição sobre o smartphone Modelo Xiaomi.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/celulares/motorola.png" alt="motorola" />
+                                        <h5 class="text-colored fw-bold mt-2">Smartphone Motorola</h5>
+                                        <p>
+                                            Descrição sobre o smartphone Modelo Motorola.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!--celulares-->
+                            <div class="tab-pane" id="acessorios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/acessorios/mouse.png" alt="mouse" />
+                                        <h5 class="text-colored fw-bold mt-2">Mouse Gamer</h5>
+                                        <p>
+                                            Descrição sobre o Mouse Gamer.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/acessorios/teclado.png" alt="teclado" />
+                                        <h5 class="text-colored fw-bold mt-2">Teclado Gamer</h5>
+                                        <p>
+                                            Descrição sobre o Teclado Gamer.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/acessorios/headset.png" alt="headset" />
+                                        <h5 class="text-colored fw-bold mt-2">Headset Gamer</h5>
+                                        <p>
+                                            Descrição sobre Headset Gamer.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/acessorios/mousepad.png" alt="mousepad" />
+                                        <h5 class="text-colored fw-bold mt-2">Mousapad Gamer</h5>
+                                        <p>
+                                            Descrição do MousePad Gamer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!--acessorios-->
+                        </div><!--tab-content-->
+                    </div><!--col-md-10-->
+                </div><!--row-->
+            </div><!--container-->
+        </section><!--nossos-produtos-->
+        
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Contato
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div><!--col-md-7-->
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-4">
+                                        <a href="https://www.facebook.com/profile.php?id=61552142605144" target="_blank">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-4 ms-1 me-1">
+                                        <a href="https://www.instagram.com/ghuevertton/" target="_blank">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-4">
+                                        <a href="https://api.whatsapp.com/send/?phone=5544997423206&text&type=phone_number&app_absent=0" target="_blank">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço</h3>
+                                <p class="fw-bold">Rua Américo Brasiliense N°360, Jardim Novo Panorama, Sarandi - PR - CEP 87.113-122</p>
+                                <!--<iframe src="https://www.google.com.br/maps/place/R.+Am%C3%A9rico+Brasiliense,+360+-+Novo+Panorama,+Sarandi+-+PR,+87113-160/@-23.4244765,-51.880665,17z/data=!3m1!4b1!4m6!3m5!1s0x94ecd06924c8cac7:0x56a1a7ed3275081!8m2!3d-23.4244765!4d-51.880665!16s%2Fg%2F11g9mdlmq7?entry=ttu" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+                            </div>
+                        </div><!--col-md-5-->
+                    </div><!--row-->
+                </div><!--row-->
+            </div><!--container-->
+        </section><!--contato-->
+    </div><!--div-section-cabecalhoo-->
+    <footer class="footer">
+        <div class="container py-1 pt-3">
+            <p class="text-center">© 2024 Ghuevertton OLiveira. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--<script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>-->
+    <script>
+        $(document).ready(function() {
+            $('#carousel').slick({
+                autoplay: true,
+            });
+    
+            $('.menu-hamburguer').click(function(){
+                $('nav').slideToggle();
+            });
+    
+            $('#telefone').mask('(00) 00000-0000');
+    
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    telefone: {
+                        required: true
+                    }
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>

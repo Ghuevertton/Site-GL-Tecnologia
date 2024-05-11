@@ -1,0 +1,71 @@
+/* Alteração para fundo preto do site todo , e a escrita em branco */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #000; /* Alteração para fundo preto */
+    color: #fff; /* Alteração para texto branco */
+}
+/*linha 19 navbar se refere a classe dentro do HEADER, Alteração para fundo preto */
+.navbar {
+    background-color: #000; 
+}
+/*.nav na linha 26 se refere a clase dentro da UL, assim como restante tambem estão dentro da UL*/
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000; /* Alteração para texto preto */
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-nos, #nossos-produtos {
+    background-color: #333; 
+}
+
+.text-colored {
+    color: #bea725;
+}
+
+.nav-cardapio .nav-link.active,
+.footer, #contato button {
+    background-color: #bea725; 
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:#bea725; 
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a, .parceiros-links a {
+    text-decoration: none;
+}
+
+.parceiros-links a {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
